@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.linkdesk-plugin
+.DS_Store

@@ -1,0 +1,28 @@
+{
+  // ─────────────────────────────────────────────────────────────────────────
+  //  Hello LinkDesk —— 官方市场第一只真实发布的插件
+  //  JSONC：可注释、可尾逗号（LinkDesk 与 SDK 都按 jsonc 解析）。
+  //  $schema 指向本工程 node_modules/@linkdesk/plugin-sdk 随包拷贝。
+  // ─────────────────────────────────────────────────────────────────────────
+  "$schema": "./node_modules/@linkdesk/plugin-sdk/schemas/plugin.schema.json",
+
+  // ── 插件身份 ──
+  "pluginId": "hello-linkdesk",
+  "name": "Hello LinkDesk",
+  "version": "0.1.0",
+  "description": "官方市场第一只真实发布的插件——问候卡。First real plugin on the official marketplace — a greeting card.",
+  "author": "Encaron",
+
+  // ── 入口（视图插件 = 此文件 default 导出一个 React 组件）──
+  "entry": "src/index.tsx",
+
+  // ── 出现位置：可作为主区标签页打开（单例，全局只开一个实例）──
+  "appearsIn": { "tabBar": true },
+  "tabBehavior": { "singleton": true },
+
+  // ── 贡献点 ──
+  "contributes": {
+    // UI 文案走 t()：key=语言码, value=相对插件根的 JSON 文件。中文 key 原文自带兜底（无需 zh.json）
+    "i18n": { "en": "i18n/en.json" }
+  }
+}

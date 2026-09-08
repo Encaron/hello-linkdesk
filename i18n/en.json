@@ -1,0 +1,9 @@
+{
+  "官方市场首发插件": "First plugin on the official marketplace",
+  "你好，LinkDesk": "Hello, LinkDesk",
+  "这是官方市场第一只真实发布的插件——一张小小的问候卡。点「安装」即可体验从市场发现到插件运行的完整链路。": "This is the first real plugin published to the official marketplace — a small greeting card. Click Install to experience the full journey from discovery to a running plugin.",
+  "插件": "Plugin",
+  "发布者": "Publisher",
+  "宿主 LinkDesk": "LinkDesk host",
+  "改 src/index.tsx 后 build & publish，即出新版。": "Edit src/index.tsx, then build & publish to ship a new version."
+}

@@ -1,0 +1,75 @@
+/* Hello LinkDesk 内容区样式——LinkDesk 主题色一律走 var(--xxx)，禁硬编码 hex；字号走壳字阶 token。
+   版式参考 ui-ux-pro-max「Minimal Single Column」：居中单列 + 充足留白 + 次级信息 muted。
+   信息卡不向用户索取动作 → 无 CTA 大按钮；零动效（prefers-reduced-motion 天然满足）。 */
+
+.hlk {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 48px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: auto;
+  font-family: inherit;
+}
+
+.hlk__card {
+  width: 100%;
+  max-width: 560px;
+}
+
+.hlk__eyebrow {
+  margin: 0 0 14px;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.hlk__title {
+  margin: 0 0 12px;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text-primary);
+}
+
+.hlk__sub {
+  margin: 0 0 32px;
+  max-width: 46ch;
+  font-size: var(--font-size-md);
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.hlk__meta {
+  margin: 0;
+  padding-top: 4px;
+  border-top: 1px solid var(--separator);
+}
+
+.hlk__row {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  padding: 8px 0;
+}
+
+.hlk__row dt {
+  flex: 0 0 104px;
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.hlk__row dd {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.hlk__hint {
+  margin: 28px 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
