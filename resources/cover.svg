@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none">
+  <!-- ============================================================
+       hello-linkdesk 封面 ·「第一句问候」   [skill: ui-ux-pro-max · 延续 editor A 家族]
+       理念：官方市场第一只真实发布的插件 = 一张小小的问候卡。
+       舞台：深夜聚光灯（暖紫光晕） + 巨大淡字水印 hello, 当背景——
+       卡内复刻真实问候卡版式（eyebrow/大标题/副题/元信息行），
+       文案随 0.1.1 载荷（· v0.1.1）；脚注一行多语言 hello，
+       向整个插件社区打招呼。资产独立 SVG：颜色自含。
+       ============================================================ -->
+  <defs>
+    <radialGradient id="hl_bg" cx="0.5" cy="0.46" r="0.95">
+      <stop offset="0" stop-color="#171e3e"/>
+      <stop offset="0.5" stop-color="#0d1229"/>
+      <stop offset="1" stop-color="#080b18"/>
+    </radialGradient>
+    <radialGradient id="hl_glow" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#7c5cf7" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7c5cf7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hl_warm" cx="0.06" cy="0.08" r="0.55">
+      <stop offset="0" stop-color="#f7c66a" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#f7c66a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hl_card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2346"/>
+      <stop offset="1" stop-color="#141a36"/>
+    </linearGradient>
+    <filter id="hl_shadow" x="-40%" y="-40%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <pattern id="hl_grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 H 0 V 44" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+  </defs>
+
+  <!-- 舞台：深夜 + 中央暖紫聚光 + 左上一点暖金 -->
+  <rect width="640" height="640" fill="url(#hl_bg)"/>
+  <rect width="640" height="640" fill="url(#hl_glow)"/>
+  <rect width="640" height="640" fill="url(#hl_warm)"/>
+  <rect width="640" height="640" fill="url(#hl_grid)"/>
+
+  <!-- 水印：巨大的 hello, 低透明度描边字，垫在问候卡身后 -->
+  <text x="318" y="312" text-anchor="middle" font-family="'Segoe UI Variable',Arial,sans-serif"
+        font-size="210" font-weight="800" font-style="italic" letter-spacing="-6"
+        fill="none" stroke="#ffffff" stroke-opacity="0.055">hello,</text>
+
+  <!-- 问候卡（复刻真实版式） -->
+  <rect x="72" y="162" width="496" height="336" rx="26" fill="#000" opacity="0.5" filter="url(#hl_shadow)"/>
+  <rect x="72" y="162" width="496" height="336" rx="26" fill="url(#hl_card)"/>
+  <rect x="72" y="162" width="496" height="336" rx="26" stroke="#ffffff" stroke-opacity="0.16"/>
+
+  <!-- eyebrow：官方市场首发插件 -->
+  <text x="106" y="204" font-family="'Segoe UI Variable','Microsoft YaHei UI',sans-serif"
+        font-size="13" letter-spacing="4" fill="#a78bfa">官方市场首发插件</text>
+
+  <!-- 大标题：你好，LinkDesk -->
+  <text x="104" y="284" font-family="'Segoe UI Variable','Microsoft YaHei UI','PingFang SC',sans-serif"
+        font-size="46" font-weight="600" fill="#f2f4ff">你好，LinkDesk</text>
+
+  <!-- 副题（真实文案头两句） -->
+  <text x="106" y="344" font-family="'Segoe UI Variable','Microsoft YaHei UI',sans-serif"
+        font-size="15.5" fill="#a6aed0">这是官方市场第一只真实发布的插件——</text>
+  <text x="106" y="374" font-family="'Segoe UI Variable','Microsoft YaHei UI',sans-serif"
+        font-size="15.5" fill="#a6aed0">一张小小的问候卡。</text>
+
+  <!-- 分隔线 + 元信息行 -->
+  <line x1="106" y1="408" x2="534" y2="408" stroke="#ffffff" stroke-opacity="0.11"/>
+  <g font-family="'Segoe UI Variable','Microsoft YaHei UI',sans-serif">
+    <text x="106" y="442" font-size="13" fill="#6b769e">插件</text>
+    <text x="210" y="442" font-size="15" fill="#e6ebfb">hello-linkdesk · v0.1.1</text>
+    <text x="106" y="472" font-size="13" fill="#6b769e">发布者</text>
+    <text x="210" y="472" font-size="15" fill="#e6ebfb">Encaron</text>
+  </g>
+
+  <!-- 脚注：向整个社区打招呼 -->
+  <text x="320" y="580" text-anchor="middle" font-family="'Segoe UI Variable',Arial,sans-serif"
+        font-size="13.5" letter-spacing="3" fill="#4d577e">hello · hallo · bonjour · ciao · hola</text>
+</svg>

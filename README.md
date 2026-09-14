@@ -4,12 +4,14 @@
 
 The first real plugin published to the official marketplace — a small greeting card that walks the full discovery → install → run journey.
 
+![hello-linkdesk 场景封面「第一句问候」（E6#69b 三图模型——整幅场景封面住 README，市场展示位走 Type-2 彩色图）](resources/cover.svg)
+
 ## 这是什么
 
 一个视图插件：在 LinkDesk 里开一个标签页，显示一张问候卡——含宿主 LinkDesk 版本（证明插件能真触达 `linkdesk.*` API）。
 
 - 插件 ID：`hello-linkdesk`
-- 版本：0.1.2
+- 版本：0.1.3
 - 作者：Encaron
 - 位置：主区标签页（单例）
 

@@ -9,7 +9,7 @@
   // ── 插件身份 ──
   "pluginId": "hello-linkdesk",
   "name": "Hello LinkDesk",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "官方市场第一只真实发布的插件——问候卡。First real plugin on the official marketplace — a greeting card.",
   "author": "Encaron",
 

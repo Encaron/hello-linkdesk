@@ -45,7 +45,7 @@ export default function HelloLinkDesk(_props: { isActive?: boolean; tabId?: stri
         <dl className="hlk__meta">
           <div className="hlk__row">
             <dt>{t("插件")}</dt>
-            <dd>hello-linkdesk · v0.1.2</dd>
+            <dd>hello-linkdesk · v0.1.3</dd>
           </div>
           <div className="hlk__row">
             <dt>{t("发布者")}</dt>
