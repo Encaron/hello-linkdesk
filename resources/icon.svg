@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- hello-linkdesk 身份图「第一句问候」：暖紫块 + 白色问候卡 + 一道手写签名 + 首发暖金点
+       意象 = 官方市场第一只真实发布的插件 = 一张问候卡（呼应其 640 封面「深夜聚光灯 + 问候卡」）
+       家族：40×40 圆角方载体 + 135° 双档渐变 + 白玻璃罩 + 发丝光边（Type-2 彩色身份图） -->
+  <defs>
+    <linearGradient id="hlBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+    <linearGradient id="hlSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#hlBg)"/>
+  <rect x="4" y="4" width="40" height="40" rx="10" fill="url(#hlSheen)"/>
+  <rect x="4.5" y="4.5" width="39" height="39" rx="9.5" fill="none" stroke="#DDD6FE" stroke-opacity="0.35"/>
+
+  <!-- 问候卡 -->
+  <rect x="10.5" y="14" width="27" height="20" rx="3.2" fill="#F8FAFC"/>
+  <rect x="10.5" y="14" width="27" height="20" rx="3.2" fill="none" stroke="#312E81" stroke-opacity="0.18"/>
+
+  <!-- 手写签名波浪（覆盖封面里的 hello 笔迹；竖向居中在卡内） -->
+  <path d="M14.6 25.2 C16.7 19.6 18.7 19.4 20.3 24.4 C21.9 29.4 23.9 29.6 26.1 24.8 C27.3 22.2 28.7 21.8 30.5 23.8"
+        fill="none" stroke="#7C3AED" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 首发暖金点（越过载体右上角，读作「首发」角标） -->
+  <circle cx="36.6" cy="11.4" r="3.5" fill="#F7C66A"/>
+  <circle cx="36.6" cy="11.4" r="3.5" fill="none" stroke="#312E81" stroke-opacity="0.4" stroke-width="0.9"/>
+</svg>

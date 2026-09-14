@@ -9,7 +9,7 @@ The first real plugin published to the official marketplace — a small greeting
 一个视图插件：在 LinkDesk 里开一个标签页，显示一张问候卡——含宿主 LinkDesk 版本（证明插件能真触达 `linkdesk.*` API）。
 
 - 插件 ID：`hello-linkdesk`
-- 版本：0.1.0
+- 版本：0.1.2
 - 作者：Encaron
 - 位置：主区标签页（单例）
 
